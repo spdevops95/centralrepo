@@ -1,4 +1,4 @@
-node {
+{
     stage('Build') {
         echo 'Building the project...'
         // Add your build commands here
@@ -11,7 +11,7 @@ node {
 
     stage('Deploy') {
         echo 'Deploying the project...'
-        // Add your deployment commands here
-    }
-}
+        // Add your deployment commit 
+
+      
 
